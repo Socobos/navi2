@@ -1,0 +1,39 @@
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+.nav li {
+    float: left;
+    border-bottom: 2px solid transparent;
+}
+
+.nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+.nav li a:hover {
+    background-color: #00e5ff;
+        width: calc(100% - 28px);
+        height: 20px;
+        background: rgb(2, 255, 213);
+        clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+        border-bottom: 2px solid #fff;
+        border-radius: 5px; 
+        margin-right: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 20;
+}
